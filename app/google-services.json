@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313540307983",
+    "project_id": "therapist-consultation",
+    "storage_bucket": "therapist-consultation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313540307983:android:3d5ed4398fdcdea6e7877a",
+        "android_client_info": {
+          "package_name": "com.rocketman19.psychologistconsultationapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313540307983-cak0akavcp63apfhplktvl478njp85cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP9CXz29HU1Ya3W5XmhGovxL8rF08zqAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313540307983-cak0akavcp63apfhplktvl478njp85cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

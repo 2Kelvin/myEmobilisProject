@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground2"
+    tools:context=".therapistRegistration">
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="4dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ther" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/amita"
+            android:text="Therapist Near You"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/belgrano"
+        android:gravity="center_horizontal"
+        android:text="Register With Us"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/myNormalBlue"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/inputTherapistPic"
+        android:layout_width="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnInsertPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/appBackground2"
+        android:text="Pick Image"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        app:elevation="20dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputNameRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:background="@color/whiteSmokeBackground"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_person" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputPhoneRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_contact"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter phone number"
+            android:background="@color/whiteSmokeBackground"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_contact" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputEmailRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:hint="Enter email"
+            android:background="@color/whiteSmokeBackground"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/ic_baseline_email" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputLocationRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter location"
+            android:background="@color/whiteSmokeBackground"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_location" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputQualificationRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_school"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter qualification"
+            android:background="@color/whiteSmokeBackground"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_school" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="10dp">
+
+        <EditText
+            android:id="@+id/inputPasswordRegTherapist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter password"
+            android:background="@color/whiteSmokeBackground"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_vpn_key" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnRegisterTherapist"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:fontFamily="@font/montserrat"
+        android:textSize="16sp"
+        app:backgroundTint="@color/teal_200"
+        app:cornerRadius="14dp"
+        app:elevation="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable-v24/background_therapist_2.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable-v24/background_therapist_3.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/app_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/background_therapist_1.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/background_therapist_card.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/edittext_search_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/ic_baseline_arrow_find.xml" value="0.2203125" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/login_button_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/main_gradient_background.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/signin_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/drawable/top_button.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_admin_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_admin_login_reg.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_admin_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_admin_registration.xml" value="0.25" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_site_main.xml" value="0.22" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_therapist_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_therapist_registration.xml" value="0.22" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_user_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_user_login_reg.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_user_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_view_admin_details.xml" value="0.12" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/activity_view_all_therapists.xml" value="0.22" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/displayAllTherapists.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/displayTherapists.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/display_all_therapists.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/pageTherapistsList.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/layout/therapist_card_layout.xml" value="0.25" />
+        <entry key="..\:/Users/RocketMan/AndroidStudioProjects/PsychologistConsultationApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
